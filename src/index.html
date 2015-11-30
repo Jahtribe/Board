@@ -1,192 +1,243 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/style.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8">
+    <title>БизиБорд.рф</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/all.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-  <header>
+<header>
     <div class="wrapper clearfix">
-      <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item"><a class="menu__link" href="#">Доставка</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Оплата</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Гарантия</a></li>
-          <li class="menu__item"><a class="menu__link menu__link-mail" href="mailto:Hello@busyboard.ru">hello@busyboard.ru</a>.
-          </li>
-          <li class="menu__item menu__item-phone"><strong>8 909 420-09-04</strong></li>
-        </ul>
-      </nav>
+        <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#">Доставка</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Оплата</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Гарантия</a></li>
+                <li class="menu__item"><a class="menu__link menu__link_mail" href="mailto:Hello@busyboard.ru">hello@busyboard.ru</a>
+                </li>
+                <li class="menu__item menu__item-phone"><strong>8 909 420-09-04</strong></li>
+            </ul>
+        </nav>
     </div>
-  </header>
-  <div class="slider">
+</header>
+<div class="slider">
     <div class="wrapper">
-      <div class="slider-content">
-        <div class="slider-header clearfix">
-          <ul class="slider-header_list">
-            <li class="slider-header_item"><img src="img/20n30.png" alt="" /><a class="slider-header_link" href="#">Бизиборд-Мини</a><span class="slider-header_price">1899₽</span></li>
-            <li class="slider-header_item"><img src="img/40n30.png" alt="" /><a class="slider-header_link" href="#">Средний Бизиборд</a><span class="slider-header_price">3899₽</span></li>
-            <li class="slider-header_item slider-header_item-3"><img src="img/60n40.png" alt="" /><a class="slider-header_link" href="#">Другой Бизиборд</a><span class="slider-header_price">5899₽</span></li>
-            <li class="slider-header_item slider-header_item-4" ><a class="slider-header_link-more" href="#">Другой </a><span class="slider-header-more">Борд на Ваш вкус</span></a></li>
-          </ul>
-        </div>
-        <div class="slider-center clearfix">
-          <div class="slider-toggle">
-            <ul class="slider-toggle_list">
-              <li class="slider-toggle_item slider-toggle_arr"><a href="#"><img src="img/arr-up.png" alt="" /></a></li>
-              <li class="slider-toggle_item slider-toggle_item-img-active"><a href="#"><img width="80" height="78" src="img/slide-1.jpg" alt="" /></a></li>
-              <li class="slider-toggle_item slider-toggle_item-img"><a href="#"><img width="80" height="78" src="img/slide-2.jpg" alt="" /></a></li>
-              <li class="slider-toggle_item slider-toggle_item-img"><a href="#"><img width="80" height="78" src="img/slide-3.jpg" alt="" /></a></li>
-              <li class="slider-toggle_item slider-toggle_arr"><a href="#"><img src="img/arr-down.png" alt="" /></a></li>
-            </ul>
-          </div>
-          <div class="info-backgr">
-          </div>
-          <div class="info">
-            <ul class="info_list">
-              <li class="info_item">Размер .......................<span>60 × 40 × 10 см</span></li>
-              <li class="info_item">Элементы ...................<span>35 (посмотреть)</span></li>
-              <li class="info_item">Вес ...................<span>3,5 кг. (4 с упаковкой)</span></li>
-              <li class="info_item">Основа ..................<span>натуральное дерево </span></li>
-            </ul>
-            <h3>- Бесплатная доставка по РФ!</h3>
-            <div class="clearfix">
-              <span class="info-price">1899₽</span>
-              <a class="info-btn" href="#">Купить</a>
+        <div class="slider-content">
+            <div class="slider-header clearfix">
+                <ul class="slider-header__list">
+                    <li class="slider-header__item active">
+                        <img src="img/20n30.png" alt=""/>
+                        <a class="slider-header__link" href="#">Бизиборд-<br>Мини</a>
+                        <span class="slider-header__price">1899₽</span>
+                    </li>
+                    <li class="slider-header__item">
+                        <img src="img/40n30.png" alt=""/>
+                        <a class="slider-header__link" href="#">Средний<br>Бизиборд</a>
+                        <span class="slider-header__price">3899₽</span>
+                    </li>
+                    <li class="slider-header__item">
+                        <img src="img/60n40.png" alt=""/>
+                        <a class="slider-header__link" href="#">Большой<br>Бизиборд</a>
+                        <span class="slider-header__price">5899₽</span>
+                    </li>
+                    <li class="slider-header__item">
+                        <a class="slider-header__link" href="#">Другой</a>
+                        <span class="slider-header__note">Борд на Ваш вкус</span>
+                    </li>
+                </ul>
             </div>
-          </div>
+            <div class="slider-center clearfix">
+                <div class="slider-toggle">
+                    <ul class="slider-toggle__list">
+                        <li class="slider-toggle__item slider-toggle_arr"><a href="#"><img src="img/arr-up.png" alt=""/></a>
+                        </li>
+                        <li class="slider-toggle__item slider-toggle__item-img-active"><a href="#"><img width="80"
+                                                                                                        height="78"
+                                                                                                        src="img/slide-1.jpg"
+                                                                                                        alt=""/></a>
+                        </li>
+                        <li class="slider-toggle__item slider-toggle__item-img"><a href="#"><img width="80" height="78"
+                                                                                                 src="img/slide-2.jpg"
+                                                                                                 alt=""/></a></li>
+                        <li class="slider-toggle__item slider-toggle__item-img"><a href="#"><img width="80" height="78"
+                                                                                                 src="img/slide-3.jpg"
+                                                                                                 alt=""/></a></li>
+                        <li class="slider-toggle__item slider-toggle_arr"><a href="#"><img src="img/arr-down.png"
+                                                                                           alt=""/></a></li>
+                    </ul>
+                </div>
+                <div class="slider-info">
+                    <div class="slider-info__backgr"></div>
+                    <ul class="slider-info__list">
+                        <li class="slider-info__item">
+                            <span class="slider-info__label">Размер</span>
+                            <span class="slider-info__value">60 × 40 × 10 см</span></li>
+                        <li class="slider-info__item">
+                            <span class="slider-info__label">Элементы</span>
+                            <span class="slider-info__value">35 (посмотреть)</span></li>
+                        <li class="slider-info__item">
+                            <span class="slider-info__label">Вес</span>
+                            <span class="slider-info__value">3,5 кг. (4 с упаковкой)</span></li>
+                        <li class="slider-info__item">
+                            <span class="slider-info__label">Основа</span>
+                            <span class="slider-info__value">натуральное дерево </span></li>
+                    </ul>
+                    <h3 class="slider-info__delivery">— Бесплатная доставка по РФ!</h3>
+                    <div class="clearfix">
+                        <span class="slider-info__price">1899₽</span>
+                        <a class="slider-info__btn button" href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="slider-footer">
-        <ul class="slider-footer_list">
-          <li class="slider-footer_item slider-footer_item-1"><h3>Развиваемые навыки</h3></li>
-          <li class="slider-footer_item slider-footer_item-2"><img src="img/header-icon-6.png" alt="" /><span class="slider-footer_text-1">Логическое мышление</span></li>
-          <li class="slider-footer_item slider-footer_item-3"><img src="img/header-icon-5.png" alt="" /><span class="slider-footer_text-2">Ловкость</span></li>
-          <li class="slider-footer_item slider-footer_item-4"><img src="img/header-icon-4.png" alt="" /><span class="slider-footer_text-3">Координация</span></li>
-          <li class="slider-footer_item slider-footer_item-5"><img src="img/header-icon-3.png" alt="" /><span class="slider-footer_text-4">Мелкая моторика</span></li>
-          <li class="slider-footer_item slider-footer_item-6"><img src="img/header-icon-2.png" alt="" /><span class="slider-footer_text-5">Воображение</span></li>
-          <li class="slider-footer_item slider-footer_item-7"><img src="img/header-icon-1.png" alt="" /><span class="slider-footer_text-6">Уверенность в себе</span></li>
-        </ul>
-      </div>
+        <div class="slider-footer">
+            <ul class="slider-footer__list">
+                <li class="slider-footer__item slider-footer__item-1"><h3>Развиваемые навыки</h3></li>
+                <li class="slider-footer__item slider-footer__item-2"><img src="img/header-icon-6.png" alt=""/><span
+                        class="slider-footer_text-1">Логическое мышление</span></li>
+                <li class="slider-footer__item slider-footer__item-3"><img src="img/header-icon-5.png" alt=""/><span
+                        class="slider-footer_text-2">Ловкость</span></li>
+                <li class="slider-footer__item slider-footer__item-4"><img src="img/header-icon-4.png" alt=""/><span
+                        class="slider-footer_text-3">Координация</span></li>
+                <li class="slider-footer__item slider-footer__item-5"><img src="img/header-icon-3.png" alt=""/><span
+                        class="slider-footer_text-4">Мелкая моторика</span></li>
+                <li class="slider-footer__item slider-footer__item-6"><img src="img/header-icon-2.png" alt=""/><span
+                        class="slider-footer_text-5">Воображение</span></li>
+                <li class="slider-footer__item slider-footer__item-7"><img src="img/header-icon-1.png" alt=""/><span
+                        class="slider-footer_text-6">Уверенность в себе</span></li>
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="board-content">
+</div>
+<div class="board-content">
     <div class="wrapper clearfix">
-      <div class="left-column">
-        <h2>Что такое Бизиборд?</h2>
-        <p>
-          Уникальность этой игрушки в том, что, выполняя действия с предметами развивающей среды,
-          ребенок сам может проверить, все ли правильно он делает.
-          Если же что-то он сделает не так, то сам сможет и исправить свои действия.
-          Это развивает самостоятельность и желание узнать больше,
-          ребенок получает удовольствие от учения.
-          А если ребенку что-то нравится, то он будет это делать снова и снова.
-        </p>
-        <button class="btn" type="button" name="button">Купить БизиБорд Мини</button>
-        <a href="#">Про доставку и оплату <img src="img/icon-mini-arr.png" alt="" /></a>
-      </div>
-      <div class="right-column">
-        <img src="img/board.png"alt="" />
-      </div>
+        <div class="left-column">
+            <h2>Что такое Бизиборд?</h2>
+            <p>
+                Уникальность этой игрушки в том, что, выполняя действия с предметами развивающей среды,
+                ребенок сам может проверить, все ли правильно он делает.
+                Если же что-то он сделает не так, то сам сможет и исправить свои действия.
+                Это развивает самостоятельность и желание узнать больше,
+                ребенок получает удовольствие от учения.
+                А если ребенку что-то нравится, то он будет это делать снова и снова.
+            </p>
+            <button class="button" type="button" name="button">Купить БизиБорд Мини</button>
+            <a href="#">Про доставку и оплату <img src="img/icon-mini-arr.png" alt=""/></a>
+        </div>
+        <div class="right-column">
+            <img src="img/board.png" alt=""/>
+        </div>
     </div>
-  </div>
-  <div class="about">
+</div>
+<div class="about">
     <div class="wrapper">
-      <ul class="about__list">
-        <li class="about__item"><img src="img/icon-1.png" alt=""  class="about__img"/><span>Деревянная <br>основа </span></li>
-        <li class="about__item"><img src="img/icon-2.png" alt=""  class="about__img"/><span>Надежные <br>крепления </span></li>
-        <li class="about__item"><img src="img/icon-3.png" alt=""  class="about__img"/><span>Нет острых углов <br>и мелких элементов</span></li>
-        <li class="about__item"><img src="img/icon-4.png" alt=""  class="about__img"/><span>Протестировано <br>детьми</span></li>
-      </ul>
-    </div>
-  </div>
-  <div class="about-2">
-    <div class="wrapper clearfix">
-      <div class="video">
-        <h2>Как это работает?</h2>
-        <iframe width="640" height="450" src="https://www.youtube.com/embed/p5n8w8j1py4" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="why-we">
-        <h2 class="why-we__title">Почему мы?</h2>
-        <ul class="why-we__list">
-          <li class="why-we__item"><span class="why-we__number">1</span><h3>Надежность и безопасность</h3> <p class="why-we__text">
-            Исключительно натуральные материалы.
-            Все элементы конструкции протестированы и исключают возможность травмирования ребенка.
-          </p></li>
-          <li class="why-we__item"><span class="why-we__number">2</span><h3>Возврат без вопросов</h3><p class="why-we__text">
-            Мы несем ответсвенность за производимые нами изделия.
-            В случае обнаружения любых дефектов Бизиборда мы с радостью отправим вам взамен новый.
-          </p></li>
-          <li class="why-we__item"><span class="why-we__number">3</span><h3>дети любят наши доски</h3><p class="why-we__text">
-            Самое главное: детям нравится Бизиборд! Купите и не пожалеете. Честное слово.
-          </p></li>
+        <ul class="about__list">
+            <li class="about__item"><img src="img/icon-1.png" alt=""
+                                         class="about__img"/><span>Деревянная <br>основа </span></li>
+            <li class="about__item"><img src="img/icon-2.png" alt="" class="about__img"/><span>Надежные <br>крепления </span>
+            </li>
+            <li class="about__item"><img src="img/icon-3.png" alt="" class="about__img"/><span>Нет острых углов <br>и мелких элементов</span>
+            </li>
+            <li class="about__item"><img src="img/icon-4.png" alt="" class="about__img"/><span>Протестировано <br>детьми</span>
+            </li>
         </ul>
-      </div>
     </div>
-  </div>
-  <div class="review">
+</div>
+<div class="about-2">
     <div class="wrapper clearfix">
-      <div class="review__left">
-        <h3>Отзывы</h3>
-        <img src="img/ar-around.png" alt="" />
-        <a href="#">-Ещё!</a>
-      </div>
-      <div class="review__text">
-        <p>
-          Елена, большое спасибо за прекрасную развивающую доску!
-          Это просто мечта: на достаточно небольшом пространстве собрано столько интересных для ребенка предметов,
-          с которыми он может заниматься часами!
-          Помимо развивающих свойств, хотелось бы отметить и эстетическую составляющую:
-          на доску просто приятно смотреть,
-          все детали продуманы и сделаны с большим вкусом.
-          Еще раз Вам большое спасибо! Всем рекомендую.
-        </p>
-      </div>
-      <div class="review__right">
-        <img src="img/rev-img.png" alt="" />
-        <p>
-          <strong>Наталья,</strong><br>арт-директор и мама
-        </p>
-      </div>
+        <div class="video">
+            <h2>Как это работает?</h2>
+            <iframe width="640" height="450" src="https://www.youtube.com/embed/p5n8w8j1py4" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+        <div class="why-we">
+            <h2 class="why-we__title">Почему мы?</h2>
+            <ul class="why-we__list">
+                <li class="why-we__item"><span class="why-we__number">1</span>
+                    <h3>Надежность и безопасность</h3>
+                    <p class="why-we__text">
+                        Исключительно натуральные материалы.
+                        Все элементы конструкции протестированы и исключают возможность травмирования ребенка.
+                    </p></li>
+                <li class="why-we__item"><span class="why-we__number">2</span>
+                    <h3>Возврат без вопросов</h3>
+                    <p class="why-we__text">
+                        Мы несем ответсвенность за производимые нами изделия.
+                        В случае обнаружения любых дефектов Бизиборда мы с радостью отправим вам взамен новый.
+                    </p></li>
+                <li class="why-we__item"><span class="why-we__number">3</span>
+                    <h3>дети любят наши доски</h3>
+                    <p class="why-we__text">
+                        Самое главное: детям нравится Бизиборд! Купите и не пожалеете. Честное слово.
+                    </p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="review">
+    <div class="wrapper clearfix">
+        <div class="review__left">
+            <h3>Отзывы</h3>
+            <img src="img/ar-around.png" alt=""/>
+            <a href="#">-Ещё!</a>
+        </div>
+        <div class="review__text">
+            <p>
+                Елена, большое спасибо за прекрасную развивающую доску!
+                Это просто мечта: на достаточно небольшом пространстве собрано столько интересных для ребенка
+                предметов,
+                с которыми он может заниматься часами!
+                Помимо развивающих свойств, хотелось бы отметить и эстетическую составляющую:
+                на доску просто приятно смотреть,
+                все детали продуманы и сделаны с большим вкусом.
+                Еще раз Вам большое спасибо! Всем рекомендую.
+            </p>
+        </div>
+        <div class="review__right">
+            <img src="img/rev-img.png" alt=""/>
+            <p>
+                <strong>Наталья,</strong><br>арт-директор и мама
+            </p>
+        </div>
     </div>
     <p class="review__footer">
-      Мы публикуем все отзывы — и хорошие, и плохие.
-      Это дает нам стимул расти и совершенствоваться.
-      Напишите нам, если хотите, чтобы мы добавили и ваш.
+        Мы публикуем все отзывы — и хорошие, и плохие.
+        Это дает нам стимул расти и совершенствоваться.
+        Напишите нам, если хотите, чтобы мы добавили и ваш.
     </p>
-  </div>
-  <footer>
+</div>
+<footer>
     <div class="wrapper clearfix">
-      <h2 class="footer-title">- Мы в социальных сетях. Давайте дружить?</h2>
-      <div class="social">
-        <ul class="social__list">
-          <li class="social__item"><a class="social__link" href="#"><img src="img/insta.png" alt="" /></a></li>
-          <li class="social__item"><a class="social__link" href="#"><img src="img/fb.png" alt="" /></a></li>
-          <li class="social__item"><a class="social__link" href="#"><img src="img/vk.png" alt="" /></a></li>
-          <li class="social__item"><a class="social__link" href="#"><img src="img/ok.png" alt="" /></a></li>
-        </ul>
-      </div>
+        <h2 class="footer-title">- Мы в социальных сетях. Давайте дружить?</h2>
+        <div class="social">
+            <ul class="social__list">
+                <li class="social__item"><a class="social__link" href="#"><img src="img/insta.png" alt=""/></a></li>
+                <li class="social__item"><a class="social__link" href="#"><img src="img/fb.png" alt=""/></a></li>
+                <li class="social__item"><a class="social__link" href="#"><img src="img/vk.png" alt=""/></a></li>
+                <li class="social__item"><a class="social__link" href="#"><img src="img/ok.png" alt=""/></a></li>
+            </ul>
+        </div>
     </div>
     <div class="footer-menu">
-      <div class="wrapper clearfix">
-        <div class="footer-menu-left">
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item"><a href="#"class="footer-menu__link">Доставка</a></li>
-            <li class="footer-menu__item"><a href="#"class="footer-menu__link">Оплата</a></li>
-            <li class="footer-menu__item"><a href="#"class="footer-menu__link">Гарантия</a></li>
-            <li class="footer-menu__item"><a href="#"class="footer-menu__link">Контакты</a></li>
-          </ul>
+        <div class="wrapper clearfix">
+            <div class="footer-menu-left">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Доставка</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оплата</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Гарантия</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-right">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a class="menu__link menu__link_mail"
+                                                     href="mailto:Hello@busyboard.ru">hello@busyboard.ru</a></li>
+                    <li class="footer-menu__item">8 909 420-09-04</li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-menu-right">
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item"><a class="menu__link menu__link-mail" href="mailto:Hello@busyboard.ru">hello@busyboard.ru</a></li>
-            <li class="footer-menu__item">8 909 420-09-04</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </body>
-  </html>
+</footer>
+</body>
+</html>

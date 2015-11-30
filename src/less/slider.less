@@ -1,0 +1,227 @@
+.slider {
+    padding: 38px 0 0 20px;
+    background: url("../img/slide-1.jpg") top center;
+    min-height: 700px;
+    width: 100%;
+
+}
+
+.slider-center {
+    padding-top: 50px;
+}
+
+// Header
+.slider-header {
+    img {
+        margin-right: 20px;
+        float: left;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 10px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        float: left;
+        margin-right: 10px;
+
+        .slider-header__item:hover &,
+        .slider-header__item.active & {
+            color: #000;
+            text-shadow: 2px 2px #fff;
+        }
+    }
+
+    &__note {
+        clear: left;
+        padding-top: 5px;
+        display: block;
+        color: #e3e0dd;
+        font-size: 14px;
+        width: 110px;
+
+    }
+
+    &__price {
+        display: block;
+        color: #000;
+        border-radius: 10px;
+        background-color: #fff;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        float: right;
+        .slider-header__item:hover & {
+            background-color: #ffdd24;
+        }
+    }
+}
+
+// Info block
+.slider-info {
+    width: 300px;
+    padding: 40px;
+    z-index: 100;
+    position: absolute;
+    margin-left: 750px;
+
+    &__list {
+        margin: 0;
+        padding: 0 0 10px;
+        border-bottom: 1px solid rgba(102, 112, 129, .2);
+    }
+
+    &__item {
+        color: #5f5e5c;
+        list-style: none;
+        padding-bottom: 15px;
+        &:extend(.clearfix all);
+        span {
+            color: #000;
+        }
+    }
+    &__label {
+        float: left;
+        opacity: .7;
+    }
+
+    &__value {
+        float: right;
+    }
+
+    &__backgr {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 25px;
+        opacity: 0.5;
+        z-index: -1;
+        position: absolute;
+        background-color: #dcd2ca;
+    }
+
+    &__delivery {
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, .2);
+        margin: 0;
+    }
+
+    &__btn {
+        margin-top: 10px;
+        padding: 8px 50px;
+        float: right;
+    }
+
+    &__price {
+        float: left;
+        font-size: 32px;
+        text-shadow: 2px 2px #fff;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+}
+
+// Aside vertical slider
+.slider-toggle {
+    float: left;
+
+    &__list {
+        padding-left: 0;
+    }
+
+    &__item {
+        margin-bottom: 10px;
+        list-style: none;
+        display: block;
+    }
+
+    &__item-img {
+        border: #fff solid 1px;
+        border-radius: 5px;
+    }
+
+    &__item-img-active {
+        border: #fddb24 solid 3px;
+        border-radius: 5px;
+    }
+
+    .slider-toggle_arr {
+        margin-left: 30px;
+    }
+}
+
+// Footer
+.slider-footer {
+    h3 {
+        width: 150px;
+        text-transform: uppercase;
+    }
+    &__list {
+        padding: 60px 0 0 0;
+        margin: 0;
+        font-weight: bold;
+    }
+    &__item {
+        align-content: center;
+        margin-right: 7px;
+        list-style: none;
+        display: inline-block;
+        span {
+            float: right;
+            width: 100px;
+            display: block;
+        }
+        img {
+            float: left;
+            margin-right: 15px;
+        }
+        .slider-footer_text-1 {
+            padding-top: 5px;
+        }
+        .slider-footer_text-2 {
+            padding-top: 10px;
+        }
+        .slider-footer_text-3 {
+            padding-top: 15px;
+        }
+        .slider-footer_text-5 {
+            padding-top: 20px;
+        }
+        .slider-footer_text-6 {
+            padding-top: 20px;
+        }
+    }
+    &__item-7 {
+        margin-right: 0;
+    }
+    &__item-6 {
+        margin-right: 5px;
+    }
+}
+
+.button {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 18px;
+    border: none;
+    background-color: #ffdd24;
+    text-shadow: 1px 1px rgba(255, 255, 255, .5);
+    padding: 7px 24px;
+    &:hover {
+        background-color: lighten(#ffdd24, 10%);
+    }
+}
