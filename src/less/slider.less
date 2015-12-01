@@ -1,17 +1,23 @@
 .slider {
-    padding: 38px 0 0 20px;
-    background: url("../img/slide-1.jpg") top center;
-    min-height: 700px;
-    width: 100%;
-
+    position: relative;
+    background: #CCC;
+    max-height:720px;
+    overflow: hidden;
 }
 
-.slider-center {
-    padding-top: 50px;
+.slider-centering() {
+    width: 1124px;
+    left:50%;
+    margin:0 0 0 -562px;
 }
 
 // Header
 .slider-header {
+    .slider-centering;
+    position: absolute;
+    top: 55px;
+    z-index: 1;
+
     img {
         margin-right: 20px;
         float: left;
@@ -68,14 +74,23 @@
     }
 }
 
+.slide {
+    //df-max-width: 1400px;
+    //min-height: 700px;
+    position: relative;
+    &_mini {
+        //background: url("../img/slide-1.jpg") top center;
+    }
+}
+
 // Info block
-.slider-info {
+.slide-info {
     width: 300px;
     padding: 40px;
     z-index: 100;
     position: absolute;
-    margin-left: 750px;
-
+    top: 180px;
+    right: 138px;
     &__list {
         margin: 0;
         padding: 0 0 10px;
@@ -134,7 +149,7 @@
 }
 
 // Aside vertical slider
-.slider-toggle {
+.slide-toggle {
     float: left;
 
     &__list {
@@ -164,6 +179,9 @@
 
 // Footer
 .slider-footer {
+    position: absolute;
+    bottom: 0;
+    .slider-centering;
     h3 {
         width: 150px;
         text-transform: uppercase;
@@ -213,7 +231,7 @@
 
 .button {
     font-size: 18px;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: #000;
     border-radius: 18px;
